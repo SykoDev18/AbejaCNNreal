@@ -1,0 +1,26 @@
+# Dependencias del Simulador de Abeja Inteligente
+
+# Pygame - Para el mundo cuadriculado y renderizado
+pygame>=2.5.0
+
+# PyTorch - Para el modelo de clasificación
+torch>=2.0.0
+torchvision>=0.15.0
+
+# OpenCV - Para procesamiento de imágenes avanzado
+opencv-python>=4.8.0
+
+# Pillow - Para manipulación de imágenes
+Pillow>=10.0.0
+
+# NumPy - Para operaciones numéricas
+numpy>=1.24.0
+
+# Matplotlib - Para visualización en demo
+matplotlib>=3.7.0
+
+# Opcional pero recomendado para mejores modelos
+# timm>=0.9.0  # Para Vision Transformers nativos
+
+# Note: Tkinter viene incluido con Python en Windows
+# En Linux, instalar con: sudo apt-get install python3-tk
